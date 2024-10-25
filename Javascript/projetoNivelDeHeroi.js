@@ -1,4 +1,4 @@
-//Processos para input de string
+//Processos para input de string e número
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -48,6 +48,5 @@ rl.question("Digite o nome do herói: ", (nomeInput) => {
 
         //Encerra o processo
         rl.close();
-
     });
 });
